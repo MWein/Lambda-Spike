@@ -1,9 +1,7 @@
 const hello = (event, context, callback) => {
   const response = {
     statusCode: 200,
-    body: {
-      message: 'hello',
-    },
+    body: 'Hello',
   }
 
   callback(null, response)
