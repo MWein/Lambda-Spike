@@ -4,7 +4,8 @@
   "description": "Learning about AWS Lambda",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "dev": "serverless offline start"
   },
   "repository": {
     "type": "git",
