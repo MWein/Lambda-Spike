@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "serverless offline start",
     "test": "jest",
-    "lint": "eslint --fix --format table --ext .js src test --cache"
+    "lint": "eslint --fix --format table --ext .js src test --cache",
+    "deploy": "serverless deploy"
   },
   "repository": {
     "type": "git",
