@@ -14,7 +14,5 @@ describe('this is a test', () => {
     }
 
     expect(callback.calledWith(null, expected)).toEqual(true)
-
   })
-
 })
