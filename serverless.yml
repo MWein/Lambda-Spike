@@ -17,3 +17,7 @@ functions:
       - http:
          path: /goodbye
          method: get
+  # cronExample:
+  #   handler: handler.cronExample
+  #   events:
+  #     - schedule: rate(2 minutes)
