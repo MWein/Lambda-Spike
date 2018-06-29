@@ -1,0 +1,22 @@
+{
+  "name": "lambda-spike",
+  "version": "1.0.0",
+  "description": "Learning about AWS Lambda",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MinuteMan92/Lambda-Spike.git"
+  },
+  "author": "Mike Weinberg",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MinuteMan92/Lambda-Spike/issues"
+  },
+  "homepage": "https://github.com/MinuteMan92/Lambda-Spike#readme",
+  "dependencies": {
+    "jest": "^23.2.0"
+  }
+}
