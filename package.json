@@ -4,8 +4,9 @@
   "description": "Learning about AWS Lambda",
   "main": "index.js",
   "scripts": {
-    "test": "test",
-    "dev": "serverless offline start"
+    "dev": "serverless offline start",
+    "test": "jest",
+    "lint": "eslint --fix --format table --ext .js src test --cache"
   },
   "repository": {
     "type": "git",
@@ -17,8 +18,26 @@
     "url": "https://github.com/MinuteMan92/Lambda-Spike/issues"
   },
   "homepage": "https://github.com/MinuteMan92/Lambda-Spike#readme",
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
     "jest": "^23.2.0",
-    "serverless-offline": "^3.25.5"
+    "serverless-offline": "^3.25.5",
+    "eslint-plugin-jest": "^21.12.1",
+    "eslint": "4.14.0"
+  },
+  "jest": {
+    "roots": [
+      "./test"
+    ],
+    "testRegex": "(/test/.*|(\\.|/)(test|spec))\\.jsx?$",
+    "transformIgnorePatterns": [
+      "node_modules/.*"
+    ],
+    "testPathIgnorePatterns": [
+      ".*_jestsetup.js",
+      "./test/test-utils",
+      ".*json",
+      ".eslintrc"
+    ]
   }
 }
