@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/MinuteMan92/Lambda-Spike#readme",
   "dependencies": {
-    "jest": "^23.2.0"
+    "jest": "^23.2.0",
+    "serverless-offline": "^3.25.5"
   }
 }
