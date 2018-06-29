@@ -13,6 +13,7 @@ describe('this is a test', () => {
       body: 'Hello',
     }
 
+    expect(callback.calledOnce).toEqual(true)
     expect(callback.calledWith(null, expected)).toEqual(true)
   })
 })
